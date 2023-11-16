@@ -1,11 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>ប្រវត្តិសាស្រ្តខ្មែរ </title>
+    <link href='https://fonts.googleapis.com/css?family=Dangrek' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/javascript.js"></script>
+
+
 </head>
+
 <body>
-    <h2>Welcome...</h2>
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper bg-light">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">ប្រវត្តិសាស្រ្តខ្មែរ</a>
+                    <div id="close-sidebar">
+                        <i class="fa fa-close"></i>
+                    </div>
+                </div>
+                <div class="sidebar-header text-center">
+                    <img src="https://cdn.britannica.com/27/4027-050-973CC0B1/Flag-Cambodia.jpg" alt="" width="60%" height="100%">
+                    <!-- <img src="assets/images/Flag_of_Cambodia.svg" alt="" width="60%" height="100%"> -->
+                </div>
+                <!-- sidebar-header  -->
+                <div class="sidebar-search">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" class="form-control search-menu" placeholder="Search...">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar-search  -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                <span>ទំព័រដើម</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-exclamation"></i>
+                                <span>អំពីពួកយើង</span>
+                            </a>
+                        </li>
+                        <!-- <li class="header-menu">
+                            <span>ប្រវត្តិសាស្រ្ត​</span>
+                        </li> -->
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-star"></i>
+                                <span>ប្រវត្តិសាស្រ្ត​</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">ប្រវត្តិសាស្រ្តបុរាណ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">ប្រវត្តិសាស្រ្ត​មជ្ឈិមសម័យ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">ប្រវត្តិសាស្រ្តទំនើប​ ឬព្រឺត្តិការណ៍ប្រវត្តិសាស្រ្តជាក់លាក់
+                                            ឬអរិយធម៍</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>វប្បធម៍</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">សិល្ប​​ តន្រ្តី
+        
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">អក្សរសិល្ប៍</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">ប្រពៃណី​ ទំនៀមទម្លាប់</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">របៀបរស់នៅ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-book"></i>
+                                <span>ស្វែងករ</span>
+                            </a>
+                        </li>
+        
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+        
+            <!-- sidebar-content  -->
+            <div class="sidebar-footer">
+                <a href="#">
+                    <i class="fa fa-phone"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-telegram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+        
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container-fluid p-0 m-0">
+                <div class="cover">
+                    <img src="https://images.pexels.com/photos/2416576/pexels-photo-2416576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <!-- <img src="assets/images/p-1.jpg" alt=""> -->
+                </div>
+                <h2>Hello</h2>
+
+
+                <hr>
+                <footer class="text-center">
+                    <div class="mb-2">
+                        <small>
+                            © 2023 made with <i class="fa fa-heart" style="color:red"></i> by - <a target="_blank"
+                                rel="noopener noreferrer" href="">
+                                web-historical.
+                            </a>
+                        </small>
+                    </div>
+                    <div>
+                        <a href="https://github.com/azouaoui-med" target="_blank">
+                            <img alt="GitHub followers"
+                                src="" />
+                        </a>
+                        <a href="https://twitter.com/azouaoui_med" target="_blank">
+                            <img alt="Twitter Follow"
+                                src="" />
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
