@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100&family=Kdam+Thmor+Pro&family=Roboto:wght@300&family=Siemreap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100&family=Kdam+Thmor+Pro&family=Moulpali&family=Angkor&family=Roboto:wght@300&family=Siemreap&family=Bayon&family=Hanuman:wght@100&family=Kdam+Thmor+Pro&family=Roboto:wght@300&family=Siemreap&display=swap");
 
 @keyframes swing {
     0% {
@@ -163,7 +163,8 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     flex-grow: 1;
-    font-family: "Dangrek";
+    font-family: 'Angkor';
+    font-size: 20px;
 
 }
 
@@ -386,11 +387,13 @@ body {
 .page-wrapper .page-content {
     overflow-x: hidden;
 }
+
 main .box-row {
     font-family: 'Siemreap';
     font-size: 16px;
 }
-main .box-row a{
+
+main .box-row a {
     font-size: 20px;
 }
 

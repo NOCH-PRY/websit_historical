@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100&family=Kdam+Thmor+Pro&family=Roboto:wght@300&family=Siemreap&display=swap");
+
+h2 {
+    font-family: 'Bayon';
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Siemreap';
+    
+}
+ul li {
+    font-size: 20px;
+    font-family: 'Siemreap';
+}
