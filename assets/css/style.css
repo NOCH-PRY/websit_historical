@@ -102,6 +102,24 @@ body {
     }
 }
 
+.relative {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Dangrek";
+}
+.relative h1{
+    font-size: 70px;
+}
+
+.absolute {
+    position: absolute;
+    /* top: 80px;
+    right: 0; */
+}
+
 /*----------------show sidebar button----------------*/
 #show-sidebar {
     position: fixed;
